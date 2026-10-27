@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>CYBERDECK // RED ALERT</title>
+  <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+  <div class="noise"></div>
+  <div class="shell">
+    <header class="topbar">
+      <div><span class="pulse"></span><strong>CYBERDECK</strong><small> LOCAL OPERATIONS TERMINAL</small></div>
+      <div class="top-status"><span id="connection">LINKING</span><span id="host">LOCALHOST</span></div>
+    </header>
+    <section class="hero">
+      <div><span class="eyebrow">SYSTEM READINESS</span><h1>RED ALERT <em>// 01</em></h1></div>
+      <div class="hero-clock"><b id="hero-time">00:00:00</b><span id="hero-date">--</span></div>
+    </section>
+    <nav class="toolbar">
+      <button id="edit-toggle">EDIT MODE</button>
+      <button id="export-layout">EXPORT</button>
+      <label class="button">IMPORT<input id="import-layout" type="file" accept="application/json"></label>
+      <span class="hint">Перетаскивайте блоки за заголовок</span>
+    </nav>
+    <main id="dashboard" class="dashboard"></main>
+    <footer><span>LOCAL TELEMETRY BRIDGE</span><span id="uptime">UPTIME --</span><span>BUILD 0.1.0</span></footer>
+  </div>
+  <script src="/static/app.js"></script>
+</body>
+</html>

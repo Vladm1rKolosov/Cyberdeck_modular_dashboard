@@ -1,0 +1,14 @@
+{
+  "profile": "red-alert-main",
+  "theme": "red",
+  "widgets": [
+    {"id": "cpu", "title": "CPU // PROCESSING", "size": "wide"},
+    {"id": "clock", "title": "CHRONOMETER", "size": "normal"},
+    {"id": "ram", "title": "MEMORY ARRAY", "size": "normal"},
+    {"id": "gpu", "title": "GPU // GRAPHICS", "size": "normal"},
+    {"id": "network", "title": "NETWORK TRAFFIC", "size": "normal"},
+    {"id": "storage", "title": "STORAGE ARRAY", "size": "wide"},
+    {"id": "processes", "title": "ACTIVE PROCESSES", "size": "wide"},
+    {"id": "terminal", "title": "SYSTEM LOG", "size": "wide"}
+  ]
+}
